@@ -51,6 +51,7 @@ public:
 			--(*this);
 			return tmp;
 		}
+		//²»µÈÓÚ
 		bool operator!=(KsoString<T>::iterator p)
 		{
 			if (this->it == p.it)
