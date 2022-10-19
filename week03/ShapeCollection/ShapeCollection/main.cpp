@@ -50,5 +50,13 @@ int main()
 	delete triangle;
 	delete compoundShape;
 
+	delete refactory;
+	delete refactory;
+	delete rofactory;
+	delete sqfactory;
+	delete trafactory;
+	delete trifactory;
+	delete cfactory;
+
 	return 0;
 }

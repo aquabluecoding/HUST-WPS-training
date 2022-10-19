@@ -14,12 +14,12 @@ public:
 	virtual double getArea(void) override;
 
 protected:
-	double m_upperBase;	//上底
-	double m_bottomBase;//下底
-	double m_height;	//高
-	double m_bias;		//上下底中心点偏移量
-	double m_leftLeg;	//左腰
-	double m_rightLeg;	//右腰
+	double m_upperBase=0;	//上底
+	double m_bottomBase=0;//下底
+	double m_height=0;	//高
+	double m_bias=0;		//上下底中心点偏移量
+	double m_leftLeg=0;	//左腰
+	double m_rightLeg=0;	//右腰
 };
 
 #endif

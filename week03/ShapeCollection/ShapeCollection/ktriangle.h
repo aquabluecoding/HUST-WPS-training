@@ -14,9 +14,9 @@ public:
 	virtual double getArea(void) override;
 
 protected:
-	double m_a;
-	double m_b;
-	double m_c;
+	double m_a=0;
+	double m_b=0;
+	double m_c=0;
 };
 
 #endif
