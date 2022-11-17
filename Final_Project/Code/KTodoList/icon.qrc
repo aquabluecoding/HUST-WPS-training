@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>金山待办.png</file>
+        <file>待办事项图片.svg</file>
+        <file>日历.svg</file>
+        <file>刷新.svg</file>
+        <file>添加.svg</file>
+        <file>添加备注.svg</file>
+        <file>添加描述.svg</file>
+        <file>我的待办.svg</file>
+        <file>我的首页.svg</file>
+        <file>消息提醒.svg</file>
+        <file>地点.svg</file>
+        <file>错叉.svg</file>
+        <file>排序.svg</file>
+        <file>时间排序.svg</file>
+        <file>编辑.svg</file>
+        <file>分类.svg</file>
+        <file>加号.svg</file>
+    </qresource>
+</RCC>
