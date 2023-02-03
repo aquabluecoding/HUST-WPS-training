@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Profiler">
+      <UniqueIdentifier>{092c2875-2b56-404b-977e-a9b4aa67c134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{102ada31-2e23-4fa3-b913-81e7e40d12a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detail">
+      <UniqueIdentifier>{7dd5c5f0-33b6-44c6-b2b9-d4c0ec1d4c13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Profiler\profiler.cpp">
+      <Filter>头文件\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\algorithmtest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\vectortest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\queuetest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\stacktest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\dequetest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\listtest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Detail\alloc.cpp">
+      <Filter>Detail</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="type_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="construct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="allocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uninitialized_functions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kvector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler\profiler.h">
+      <Filter>头文件\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="reverse_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kstack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kdeque.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kqueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="functional.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="klist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\test_util.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\algorithmtest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\vectortest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\queuetest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\stacktest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\dequetest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\listtest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\kdeque_impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\kvector_impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Detail\klist_impl.h">
+      <Filter>Detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>
